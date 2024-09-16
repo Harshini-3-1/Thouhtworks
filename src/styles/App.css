@@ -1,0 +1,41 @@
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.search-bar button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.weather-card,
+.forecast-card {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.forecast-day {
+  margin: 10px;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .weather-card,
+  .forecast-card {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
